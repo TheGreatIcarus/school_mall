@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sut.school_mall.mapper.StoreMapper">
+    <select id="getAll" resultType="com.sut.school_mall.bean.Store">
+        SELECT * FROM store
+    </select>
+</mapper>
