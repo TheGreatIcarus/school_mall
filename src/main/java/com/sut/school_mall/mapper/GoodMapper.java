@@ -10,5 +10,5 @@ import java.util.List;
 @Mapper
 @Component
 public interface GoodMapper {
-    List<Good> getAllGoods(String goodType, String goodStore);
+    public List<Good> getAllGoods(String goodType, String goodStore);
 }

@@ -10,6 +10,6 @@ import java.util.List;
 @Mapper
 @Component
 public interface StoreMapper {
-    List<Store> getAll();
+   public List<Store> getAll();
 
 }

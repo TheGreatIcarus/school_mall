@@ -11,5 +11,5 @@ import java.util.List;
 @Mapper
 @Component
 public interface CategoryMapper {
-    List<Category> getAllCategory(String storeName);
+    public List<Category> getAllCategory(String storeName);
 }
